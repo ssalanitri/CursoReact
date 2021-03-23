@@ -50,6 +50,8 @@ const [nombre, setearNombre] = usarState('Sergio');
 console.log(nombre);
 setearNombre();
 
+//Esta es la forma correcta de acceder a un metodo dentro de un array.
+//Usar arr[1]() funciona,pero es confuso y depende de uan posicion fija.
 
 
 
